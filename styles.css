@@ -65,7 +65,7 @@ body {
 .company-short-name {
     font-size: 6rem;
     font-weight: 800;
-    background: linear-gradient(45deg, var(--accent-color), #00cec9);
+    background: linear-gradient(45deg, #FF6B6B, #4ECDC4);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     margin: 0.5rem 0;
@@ -74,11 +74,13 @@ body {
 
 .slogan {
     font-size: 2rem;
-    opacity: 0.95;
+    opacity: 1;
     font-weight: 300;
     max-width: 1000px;
     line-height: 1.6;
     margin-top: 1rem;
+    color: #FFE5D9;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 footer {
